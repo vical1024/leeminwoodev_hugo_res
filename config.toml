@@ -1,4 +1,4 @@
-baseURL = "http://blog.leeminwoo.dev/"
+baseURL = "https://blog.leeminwoo.dev/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "anatole"
