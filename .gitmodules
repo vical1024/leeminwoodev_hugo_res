@@ -3,5 +3,5 @@
 	url = https://github.com/lxndrblz/anatole.git
 [submodule "public"]
 	path = public
-	url = git@github.com:vical1024/leeminwoodev_hugo.github.io.git
+	url = git@github.com-minwoo:vical1024/leeminwoodev_hugo.github.io.git
 	branch = master
