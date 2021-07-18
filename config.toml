@@ -1,46 +1,43 @@
 baseURL = "https://blog.leeminwoo.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
 theme = "anatole"
-
 
 [params]
 title = "Minwoo Lee"
 author = "Minwoo Lee"
-description = "Minwoo Lee(description)"
-profilePicture = "images/profile.jpg"
-keywords = ""
-favicon = "favicons/"
-customCss = []
-customJs = []
-mainSections = ["post"]
-images = ["images/site-feature-image.png"]
-# Google Site Verification
-#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+enableMediumZoom = false
+description = """
+Developer
+C, C++, Python, Go, Rust, Linux, Yocto
+Mainly works in automotive industry
+"""
+profilePicture = "profile-image/profile.jpg"
+mainSections = "post"
+disableThemeSwitcher = true
+readMore = true
+contentratio = 0.65
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+customCss = ["css/syntax.css"]
 
-## Math settings
 [params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
+enable = false
+use = "katex"
 
-## Social links
 [[params.socialIcons]]
-icon = "fa-linkedin"
+icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/85minwoolee"
 
 [[params.socialIcons]]
-icon = "fa-github"
+icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/vical1024"
 
-
 [[params.socialIcons]]
-icon = "fa-envelope"
+icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:vical1024@gmail.com"
-
-## Menu items
 
 [menu]
 
