@@ -1,5 +1,5 @@
 [submodule "themes/anatole"]
-	path = themes/anatole
+	path = themes
 	url = https://github.com/lxndrblz/anatole.git
 [submodule "public"]
 	path = public
