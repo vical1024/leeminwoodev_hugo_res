@@ -74,12 +74,12 @@ $vim config.toml
 
 새 Post 생성
 ```
-$hugo new posts/first_post.md
+$hugo new post/first_post.md
 ```
 
 Post 내용 작성
 ```
-$vim ./posts/first_post.md
+$vim ./post/first_post.md
 ```
 
 로컬서버 Start
